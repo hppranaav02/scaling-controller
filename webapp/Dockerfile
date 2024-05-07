@@ -15,6 +15,8 @@ RUN /bin/bash -c "source venv/bin/activate"
 # Install Flask extensions
 RUN pip install flask_limiter flask_restful
 
+VOLUME /app/data
+
 # Make port 80 available out of network
 EXPOSE 80
 
