@@ -32,7 +32,7 @@ api = Api(app)
 
 # Path to data directory where the objects will be stored. You might
 # want to change this for your container deployment.
-data_path = Path.cwd () / 'data'
+data_path = '/var/data'
 
 # global toggle for random delays
 random_delay_enabled = True
